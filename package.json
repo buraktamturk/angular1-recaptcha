@@ -1,0 +1,15 @@
+{
+  "name": "angular1-recaptcha",
+  "version": "1.0.0",
+  "description": "AngularJS Recaptcha Directive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Burak Tamturk",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/buraktamturk/angular1-recaptcha.git"
+  }
+}
