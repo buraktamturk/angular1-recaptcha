@@ -46,7 +46,8 @@
         scope: {
           ngModel: '=',
           siteKey: '=',
-          theme: '='
+          theme: '=',
+          size: '='
         },
         link: function($scope, $element) {
           var options;
@@ -61,6 +62,7 @@
             var id = library.render($element[0], {
               sitekey: $scope.siteKey || options,
               theme: $scope.theme || 'light',
+              size: $scope.size || 'normal',
               callback: function(token) {
                 $scope.ngModel = last_token = token;
               },
