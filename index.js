@@ -65,9 +65,11 @@
               size: $scope.size || 'normal',
               callback: function(token) {
                 $scope.ngModel = last_token = token;
+                $scope.$apply();
               },
               'expired-callback': function() {
                 $scope.ngModel = last_token = null;
+                $scope.$apply();
               }
             });
     
